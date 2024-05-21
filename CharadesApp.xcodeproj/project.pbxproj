@@ -14,6 +14,7 @@
 		84B87B462BE07C3200EF106B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B452BE07C3200EF106B /* Assets.xcassets */; };
 		84B87B492BE07C3200EF106B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B472BE07C3200EF106B /* LaunchScreen.storyboard */; };
 		84B9D14F2BE9B6130027149A /* CharadesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9D14E2BE9B6130027149A /* CharadesViewController.swift */; };
+		84C56C152BFC2C2200218689 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C56C142BFC2C2200218689 /* CategoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		84B87B482BE07C3200EF106B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B87B4A2BE07C3200EF106B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B9D14E2BE9B6130027149A /* CharadesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharadesViewController.swift; sourceTree = "<group>"; };
+		84C56C142BFC2C2200218689 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				84B87B402BE07C2F00EF106B /* ViewController.swift */,
 				84B9D14E2BE9B6130027149A /* CharadesViewController.swift */,
 				84B87B422BE07C2F00EF106B /* Main.storyboard */,
+				84C56C142BFC2C2200218689 /* CategoriesViewController.swift */,
 				84B87B452BE07C3200EF106B /* Assets.xcassets */,
 				84B87B472BE07C3200EF106B /* LaunchScreen.storyboard */,
 				84B87B4A2BE07C3200EF106B /* Info.plist */,
@@ -145,6 +148,7 @@
 				84B9D14F2BE9B6130027149A /* CharadesViewController.swift in Sources */,
 				84B87B3D2BE07C2F00EF106B /* AppDelegate.swift in Sources */,
 				84B87B3F2BE07C2F00EF106B /* SceneDelegate.swift in Sources */,
+				84C56C152BFC2C2200218689 /* CategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

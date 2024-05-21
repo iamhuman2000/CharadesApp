@@ -16,10 +16,18 @@ class CharadesViewController: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     let motionManager = CMMotionManager()
     
-    let words = ["Frog","Bird","Cat","Snake","Bunny","Lion","Monkey","Shark","Unicorn","Elephant"]
+    var words = [String]()
     var wordIndex = 0
     var isDebouncing = false
+
+    init(words:[String]) {
+        super.init(nibName: nil, bundle: nil)
+        self.words = words
+    }
     
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,7 +37,7 @@ class CharadesViewController: UIViewController {
                 self.handleTilt(data!)
             }
         }
-        showNextWord()
+//        showNextWord()
 //   Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(runTimer), userInfo: nil, repeats: true)
     
     
@@ -64,7 +72,7 @@ class CharadesViewController: UIViewController {
         if wordIndex >= words.count{
             return
         } else {
-            AnimalLabel.text = words [wordIndex]
+            AnimalLabel.text = words[wordIndex]
             wordIndex += 1
         }
     }
